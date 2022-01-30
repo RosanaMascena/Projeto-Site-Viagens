@@ -1,0 +1,570 @@
+p {
+	margin: 0;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	list-style-type: none;
+}
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.top-header {
+	background-color: #ffc221;
+	height: 40px;
+	margin-bottom: 15px;
+}
+
+.top-header-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-header-left {
+	float: left;
+	padding: 8px 0px 0px 170px;
+}
+
+.top-header-right {
+	float: right;
+	padding: 8px 150px 0px 0px;
+}
+
+.top-header-content li {
+	display: inline-block;
+}
+
+.top-header-content a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	margin-inline-end: 30px;
+}
+
+.top-header-content a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+.top-header-content i {
+	color: #000000;
+	font-size: 18px;
+}
+
+#logo img {
+	width: 60%;
+}
+
+.header-content {
+	display: grid;
+	grid-template-columns: 20% 50% 15% 15%;
+	width: 945pt;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#logo img, #header-search, #request-header, #minicart-header {
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+	margin: auto;	
+}
+
+.search {
+	width: 30em;
+	height: 2em;
+    border: 0;
+    border-radius: 20px;
+    font-size: 14px;
+    padding-left: 20px;
+	box-shadow: 5px 5px 40px #CCCCCC;
+}
+
+.submit {
+	border: none;
+	background-color: transparent;
+}
+
+.fa-list-ul, .fa-shopping-cart {
+	font-size: 20px;
+	padding-right: 10px;
+	color: #000000;
+}
+
+#request-header a, #minicart-header a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#request-header a:hover, #minicart-header a:hover {
+	text-decoration: underline;
+}
+
+.nav-high {
+	display: flex;
+	gap: 40px;
+    margin-left: 20rem;
+	list-style: none;
+	margin-bottom: 50px;
+}
+
+.nav-high a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	color: #000000;
+	list-style: none;
+}
+
+.nav-high a:hover {
+	color: #ffc221;
+}
+
+.nav-high i {
+	font-size: 30px;
+	color: #ffc221;
+	padding-right: 15px;
+}
+
+.home-banner {
+	margin-bottom: 6em;
+}
+
+.quem-somos-texto h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.home-quem-somos {
+	display: grid;
+    grid-template-columns: 30% 60%;
+    justify-items: center;
+    text-align: justify;
+    vertical-align: top;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 3em;
+}
+
+.home-institucional h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.institucional-video-mapa {
+	display: grid;
+	grid-template-columns: 50% 50%;
+    justify-items: center;
+	text-align: justify;
+	margin-bottom: 6em;
+}
+
+.institucional-video {
+	margin-left: 20%
+}
+
+.institucional-mapa {
+	margin-right: 20%;
+}
+
+.home-produtos-nacional, .home-produtos-internacional {
+	margin-left: 20px;
+	margin-bottom: 4em;
+}
+
+.home-produtos-nacional h2, .home-produtos-internacional h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 40px 0;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.home-produtos-nacional li, .home-produtos-internacional li {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 3px solid #ffc221;
+	border-radius: 10px;
+}
+
+.home-produtos-nacional h3, .home-produtos-internacional h3 {
+	font-size: 18px;
+}
+
+.produto-descricao, .produto-condicoes {
+	font-size: 14px;
+}
+
+.produto-preco {
+	font-size: 20px;
+	color: #008B8B;
+	font-weight: 700;
+}
+
+.button-cart {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background-color: #ffc221;
+	margin-top: 15px;
+	border: 0;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.beneficios h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 40px 0;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.conteudo-beneficios {
+	display: grid;
+	grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+	margin-bottom: 6em;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.itens {
+	line-height: 2;
+}
+
+.itens:before {
+	content: "➤";
+	color: #ffc221;
+	margin-right: 5px;
+}
+
+.imagem-beneficios {
+	box-shadow: 20px 20px 20px #BBBBBB;
+}
+
+.footer-newsletter {
+	display: grid;
+    grid-template-columns: 55% 45%;
+    justify-items: center;
+	background-color: #ffc221;
+	padding: 10px 40px;
+	margin-bottom: 1em;
+}
+
+.news-col-1, .news-col-2 {
+	display: flex;
+	align-items: center;
+}
+
+.news-col-1 i {
+	font-size: 5em;
+}
+
+.news-col-1 span {
+	padding-left: 20px;
+}
+
+.news-col-2 input{
+    width: 22em;
+	height: 2em;
+    border: 0;
+	border-radius: 5px;
+}
+
+.news-col-2 button{
+    font-size: 16px;
+	color: #FFFFFF;
+	border: none;
+	background-color: #000000;
+	margin-left: 25px;
+	padding: 6px;
+}
+
+.footer-conteudo {
+	display: grid;
+    grid-template-columns: 20% 15% 20% 15% 30%;
+    justify-items: center;
+    margin-left: 5%;
+	margin-right: 8%;
+    margin-bottom: 3em;
+}
+
+.footer-conteudo h3 {
+	font-size: 16px;
+}
+
+.footer-conteudo li {
+	font-size: 14px;
+}
+
+.footer-conteudo p {
+	font-weight: bold;
+}
+
+.footer-conteudo a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer-conteudo a:hover {
+	text-decoration: underline;
+	color: #ffc221;
+}
+
+.conteudo-col-4 i, .conteudo-col-5 i {
+	color: #ffc221;
+	margin-right: 10px;
+}
+
+.footer-services {
+	display: grid;
+	grid-template-columns: 50% 50%;
+    justify-items: center;
+	margin-left: 15%;
+	margin-right: 10%;
+	margin-bottom: 2em;
+}
+
+.formas-pagamento, .selos-segurança {
+	display: flex;
+    align-items: center;
+}
+
+.pagamento h3, .seguranca h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.visa, .mastercard, .elo, .american-express, .diners, .hipercard {
+	padding-right: 20px;
+}
+
+.copyright hr {
+	height: 0; 
+	border: 0; 
+	border-top: 1px solid #CCCCCC;
+	margin-bottom: 5px;
+}
+
+.copyright {
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+@media screen and (max-width: 480px) {
+	.top-header {
+		display: none;
+	}
+
+	#logo img {
+		width: 60%;
+		margin: 20px auto;
+		margin-bottom: 20px;
+	}
+
+	.header-content {
+		display: grid;
+    	grid-template-columns: 50% 50%;
+    	width: auto;
+    	height: 4em;
+    	padding: auto;
+    	margin: 0 auto;
+		
+	}
+
+	.search {
+		width: 10em;
+		height: 2em;
+		border: 0;
+		border-radius: 20px;
+		font-size: 14px;
+		box-shadow: 5px 5px 40px #CCCCCC;
+		margin: 0;
+	}
+
+	.submit {
+		border: none;
+		background-color: transparent;
+	}
+
+	#request-header, #minicart-header  {
+		display: none;
+	}
+
+	.nav-high {
+		display: flex;
+		margin: 0 auto;
+		padding: 20px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#nav-header {
+		margin: 0;
+	}
+
+	.nav-high i {
+		font-size: 18px;
+	}
+
+	.nav-high a {
+		font-size: 16px;
+	}
+
+	.home-banner {
+		margin: 0;
+	}
+
+	.home-quem-somos {
+		display: block;
+		margin: 0 10%;
+		margin-bottom: 20px;
+	}
+
+	.quem-somos-texto h2 {
+		margin: 0;
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.quem-somos-texto {
+		font-size: 12px;
+	}
+
+	.quem-somos-img {
+		display: none;
+	}
+
+	.home-institucional {
+		display: none;
+	}
+
+	.home-institucional h2 {
+		font-size: 16px;
+	}
+
+	.institucional-mapa {
+		display: none;
+	}
+
+	.conteudo-beneficios {
+		display: block;
+		font-size: 12px;
+		margin: 0;
+		padding-left: 20px;
+	}
+
+	.beneficios {
+		margin-bottom: 2em;
+	}
+
+	.beneficios h2 {
+		margin: 0;
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.imagem-beneficios {
+		display: none;
+	}
+
+	.home-produtos-nacional, .home-produtos-internacional {
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	.home-produtos-nacional h2, .home-produtos-internacional h2 {
+		margin: 0;
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.footer-newsletter {
+		display: block;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	.news-col-1 {
+		display: flex;
+    	flex-direction: column;
+		margin-bottom: 10px;
+	}
+
+	.news-col-1 span {
+		padding-left: none;
+		text-align: center;
+	}
+
+	.news-col-2 input{
+		margin-bottom: 20px;
+	}
+
+	.news-col-2 button {
+		margin-left: 110px;
+	}
+
+	.footer-conteudo {
+		display: flex;
+    	flex-direction: column;
+		margin: 0 20px;
+	}
+
+	.footer-conteudo ul {
+		margin-bottom: 10px;
+	}
+
+	.footer-services {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		padding: 20px;
+	}
+
+	.formas-pagamento {
+		margin-bottom: 20px;
+	}
+
+	.pagamento h3, .seguranca h3 {
+		font-size: 16px;
+	}
+
+	.selos-segurança {
+		display: flex;
+		justify-content: center;
+	}
+
+	.pagamento ul li img {
+		max-width: 40px;
+	}
+
+	.selos-seguranca icon-1 {
+		max-width: 100px;
+	}
+}
