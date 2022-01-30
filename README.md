@@ -1,2 +1,3 @@
-# Projeto-viajar-e-bom-demais
- Projeto desenvolvido na mentoria de estágio da Signa.
+Projeto desenvolvido com a Mentoria de Front-end do estágio na Signa, utilizando conhecimentos de HTML, CSS, Layout Responsivo e jQuery.
+
+Link da página: https://rosanamascena.github.io/Projeto-Mentoria-Front-End/
