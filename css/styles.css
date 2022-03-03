@@ -113,8 +113,8 @@ body {
 
 .nav-high {
 	display: flex;
+	justify-content: center;
 	gap: 40px;
-    margin-left: 20rem;
 	list-style: none;
 	margin-bottom: 50px;
 }
